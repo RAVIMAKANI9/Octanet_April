@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing_page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-j0N2B8q4t9nTBQqDXjP4TwKb37hUoJicgIxIJW7fw09ROt7UQ42j6IsBubj/lm3reKtFKamCsFGWb7eJthHHZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <h1>TravelWish</h1>
+        </div>
+        <div class="nav-right">
+            <a class="al" href="#">Home</a>
+            <a class="al" href="#">Services</a>
+            <a class="al" href="#">About</a>
+            <a class="al" href="#">Contact</a>
+            <a>
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div class="home">
+        <h1><center>"Discover Your Next Adventure"<br>Explore the World!</center></h1>
+        <h3>Your Gateway to Endless Adventures! Embark on a journey of discovery with TravelWish</h3>
+    </div>
+    <div class="b1">
+        <center><button>Start Tour</button></center>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("nav-right")[0];
+            if (x.className === "nav-right") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-right";
+            }
+        }
+    </script>
+</body>
+</html>
